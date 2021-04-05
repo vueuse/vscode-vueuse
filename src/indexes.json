@@ -133,7 +133,8 @@
   "Watch",
   "Motion",
   "Gesture",
-  "Head"
+  "Head",
+  "Sound"
   ],
   "functions": [
   {
@@ -929,133 +930,133 @@
   "name": "useMotion",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-motion.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "composable putting your components in motion."
   },
   {
   "name": "useMotionProperties",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-motion-properties.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "useMotionProperties is used to access Motion Properties for a target element."
   },
   {
   "name": "useMotions",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-motions.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "useMotions is used to access the motion instances from v-motion directives declared from templates."
   },
   {
   "name": "useSpring",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-spring.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "useSpring is a simpler hook than useMotion."
   },
   {
   "name": "useMotionVariants",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-motion-variants.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "useMotionVariants is used to handle the Variants state and selection."
   },
   {
   "name": "useMotionVariants",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-motion-variants.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "useMotionVariants is used to handle the Variants state and selection."
   },
   {
   "name": "useMotionTransitions",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-motion-transitions.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "useMotionTransitions is used to handle the multiple animations created when you animate your elements."
   },
   {
   "name": "useMotionControls",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-motion-controls.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "useMotionControls is used to create motion controls from motion properties and motion transitions."
   },
   {
   "name": "useMotionFeatures",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-motion-features.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "useMotionFeatures is used to register features such as variant sync, event listeners."
   },
   {
   "name": "useElementStyle",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-element-style.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "useElementStyle is used to sync a reactive object to a target element CSS styling."
   },
   {
   "name": "useElementTransform",
   "package": "motion",
   "docs": "https://motion.vueuse.org/api/use-element-transform.html",
-  "category": "@vueuse/motion",
+  "category": "Motion",
   "description": "useElementTransform is used to sync a reactive object to a target element CSS transform."
   },
   {
   "name": "useDrag",
   "package": "gesture",
   "docs": "https://gesture.vueuse.org/use-drag.html",
-  "category": "@vueuse/gesture",
+  "category": "Gesture",
   "description": "useDrag hook"
   },
   {
   "name": "useMove",
   "package": "gesture",
   "docs": "https://gesture.vueuse.org/use-move.html",
-  "category": "@vueuse/gesture",
+  "category": "Gesture",
   "description": "useMove hook"
   },
   {
   "name": "useHover",
   "package": "gesture",
   "docs": "https://gesture.vueuse.org/use-hover.html",
-  "category": "@vueuse/gesture",
+  "category": "Gesture",
   "description": "useHover hook"
   },
   {
   "name": "useScroll",
   "package": "gesture",
   "docs": "https://gesture.vueuse.org/use-scroll.html",
-  "category": "@vueuse/gesture",
+  "category": "Gesture",
   "description": "useScroll hook"
   },
   {
   "name": "useWheel",
   "package": "gesture",
   "docs": "https://gesture.vueuse.org/use-wheel.html",
-  "category": "@vueuse/gesture",
+  "category": "Gesture",
   "description": "useWheel hook"
   },
   {
   "name": "usePinch",
   "package": "gesture",
   "docs": "https://gesture.vueuse.org/use-pinch.html",
-  "category": "@vueuse/gesture",
+  "category": "Gesture",
   "description": "usePinch hook"
   },
   {
   "name": "useGesture",
   "package": "gesture",
   "docs": "https://gesture.vueuse.org/use-gesture.html",
-  "category": "@vueuse/gesture",
+  "category": "Gesture",
   "description": "useGesture hook"
   },
   {
   "name": "useHead",
   "package": "head",
   "docs": "https://github.com/vueuse/head#useheadhead-headobject--refheadobject",
-  "category": "@vueuse/head",
+  "category": "Head",
   "description": "Document head manager for Vue 3."
   }
   ]
