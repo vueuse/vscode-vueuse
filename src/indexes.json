@@ -885,6 +885,83 @@
   "docs": "https://vueuse.org/firebase/useRTDB/",
   "category": "@Firebase",
   "description": "reactive [Firebase Realtime Database](https://firebase.google.com/docs/database) binding"
-  }
+  },
+  {
+  "name": "useMotion",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-motion.html",
+  "category": "@vueuse/motion",
+  "description": "composable putting your components in motion."
+  },
+  {
+  "name": "useMotionProperties",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-motion-properties.html",
+  "category": "@vueuse/motion",
+  "description": "useMotionProperties is used to access Motion Properties for a target element."
+  },
+  {
+    "name": "useMotions",
+    "package": "motion",
+    "docs": "https://motion.vueuse.org/api/use-motions.html",
+    "category": "@vueuse/motion",
+    "description": "useMotions is used to access the motion instances from v-motion directives declared from templates."
+  },
+  {
+    "name": "useSpring",
+    "package": "motion",
+    "docs": "https://motion.vueuse.org/api/use-spring.html",
+    "category": "@vueuse/motion",
+    "description": "useSpring is a simpler hook than useMotion."
+  },
+  {
+    "name": "useMotionVariants",
+    "package": "motion",
+    "docs": "https://motion.vueuse.org/api/use-motion-variants.html",
+    "category": "@vueuse/motion",
+    "description": "useMotionVariants is used to handle the Variants state and selection."
+  },
+  {
+    "name": "useMotionVariants",
+    "package": "motion",
+    "docs": "https://motion.vueuse.org/api/use-motion-variants.html",
+    "category": "@vueuse/motion",
+    "description": "useMotionVariants is used to handle the Variants state and selection."
+  },
+  {
+    "name": "useMotionTransitions",
+    "package": "motion",
+    "docs": "https://motion.vueuse.org/api/use-motion-transitions.html",
+    "category": "@vueuse/motion",
+    "description": "useMotionTransitions is used to handle the multiple animations created when you animate your elements."
+  },
+  {
+    "name": "useMotionControls",
+    "package": "motion",
+    "docs": "https://motion.vueuse.org/api/use-motion-controls.html",
+    "category": "@vueuse/motion",
+    "description": "useMotionControls is used to create motion controls from motion properties and motion transitions."
+  },
+  {
+    "name": "useMotionFeatures",
+    "package": "motion",
+    "docs": "https://motion.vueuse.org/api/use-motion-features.html",
+    "category": "@vueuse/motion",
+    "description": "useMotionFeatures is used to register features such as variant sync, event listeners."
+  },
+  {
+    "name": "useElementStyle",
+    "package": "motion",
+    "docs": "https://motion.vueuse.org/api/use-element-style.html",
+    "category": "@vueuse/motion",
+    "description": "useElementStyle is used to sync a reactive object to a target element CSS styling."
+  },
+  {
+    "name": "useElementTransform",
+    "package": "motion",
+    "docs": "https://motion.vueuse.org/api/use-element-transform.html",
+    "category": "@vueuse/motion",
+    "description": "useElementTransform is used to sync a reactive object to a target element CSS transform."
+  },
   ]
   }
