@@ -1,0 +1,85 @@
+{
+	"name": "vueuse",
+	"displayName": "vueuse",
+	"description": "VueUse Documentation at Your Fingertips",
+	"version": "0.0.1",
+	"publisher": "wheatjs",
+	"license": "MIT",
+	"preview": true,
+	"icon": "res/icon.png",
+	"engines": {
+		"vscode": "^1.55.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onLanguage:vue",
+		"onLanguage:typescript",
+		"onLanguage:javascript"
+	],
+	"main": "./out/extension.js",
+	"extensionPack": [
+		"antfu.browse-lite"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "vueuse-docs.openDocs",
+				"title": "Vueuse Documentation",
+				"category": "VueUse"
+			},
+			{
+				"command": "vueuse-docs.browseDocs",
+				"title": "Browse Documentation",
+				"category": "VueUse"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"command": "vueuse-docs.openDocs",
+					"when": "vueuse.showMenu",
+					"group": "navigation"
+				}
+			]
+		}
+	},
+	"configuration": {
+		"type": "object",
+		"title": "VueUse",
+		"properties": {
+			"vite.browserType": {
+				"type": "string",
+				"enum": [
+					"embedded",
+					"system"
+				],
+				"default": "embedded",
+				"description": "Browser to open VueUse docs in"
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile && yarn run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "^0.6.2",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.55.0",
+		"@typescript-eslint/eslint-plugin": "^4.14.1",
+		"@typescript-eslint/parser": "^4.14.1",
+		"eslint": "^7.19.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	}
+}
