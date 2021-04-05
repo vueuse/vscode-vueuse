@@ -79,6 +79,42 @@
   },
   "dir": "packages/firebase",
   "docs": "https://vueuse.org/firebase/README.html"
+  },
+  "motion": {
+  "name": "@vueuse/motion",
+  "display": "Motion",
+  "description": "Vue Composables putting your components in motion",
+  "addon": true,
+  "external": [
+  "popmotion",
+  "framesync"
+  ],
+  "globals": {
+  "popmotion": "popmotion",
+  "framesync": "framesync"
+  },
+  "docs": "https://motion.vueuse.org"
+  },
+  "gesture": {
+  "name": "@vueuse/gesture",
+  "display": "Gesture",
+  "description": "Vue Composables making your app interactive",
+  "addon": true,
+  "docs": "https://gesture.vueuse.org"
+  },
+  "sound": {
+  "name": "@vueuse/sound",
+  "display": "Sound",
+  "description": "Vue Composable playing sound in your apps",
+  "addon": true,
+  "docs": "https://sound.vueuse.org"
+  },
+  "head": {
+  "name": "@vueuse/head",
+  "display": "Head",
+  "description": "Document <head> manager for Vue 3. SSR ready.",
+  "addon": true,
+  "docs": "https://github.com/vueuse/head"
   }
   },
   "categories": [
@@ -94,7 +130,11 @@
   "Sensors",
   "State",
   "Utilities",
-  "Watch"
+  "Watch",
+  "Motion",
+  "Gesture",
+  "Head",
+  "Sound"
   ],
   "functions": [
   {
@@ -885,6 +925,146 @@
   "docs": "https://vueuse.org/firebase/useRTDB/",
   "category": "@Firebase",
   "description": "reactive [Firebase Realtime Database](https://firebase.google.com/docs/database) binding"
+  },
+  {
+  "name": "useMotion",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-motion.html",
+  "category": "Motion",
+  "description": "composable putting your components in motion."
+  },
+  {
+  "name": "useMotionProperties",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-motion-properties.html",
+  "category": "Motion",
+  "description": "useMotionProperties is used to access Motion Properties for a target element."
+  },
+  {
+  "name": "useMotions",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-motions.html",
+  "category": "Motion",
+  "description": "useMotions is used to access the motion instances from v-motion directives declared from templates."
+  },
+  {
+  "name": "useSpring",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-spring.html",
+  "category": "Motion",
+  "description": "useSpring is a simpler hook than useMotion."
+  },
+  {
+  "name": "useMotionVariants",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-motion-variants.html",
+  "category": "Motion",
+  "description": "useMotionVariants is used to handle the Variants state and selection."
+  },
+  {
+  "name": "useMotionVariants",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-motion-variants.html",
+  "category": "Motion",
+  "description": "useMotionVariants is used to handle the Variants state and selection."
+  },
+  {
+  "name": "useMotionTransitions",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-motion-transitions.html",
+  "category": "Motion",
+  "description": "useMotionTransitions is used to handle the multiple animations created when you animate your elements."
+  },
+  {
+  "name": "useMotionControls",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-motion-controls.html",
+  "category": "Motion",
+  "description": "useMotionControls is used to create motion controls from motion properties and motion transitions."
+  },
+  {
+  "name": "useMotionFeatures",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-motion-features.html",
+  "category": "Motion",
+  "description": "useMotionFeatures is used to register features such as variant sync, event listeners."
+  },
+  {
+  "name": "useElementStyle",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-element-style.html",
+  "category": "Motion",
+  "description": "useElementStyle is used to sync a reactive object to a target element CSS styling."
+  },
+  {
+  "name": "useElementTransform",
+  "package": "motion",
+  "docs": "https://motion.vueuse.org/api/use-element-transform.html",
+  "category": "Motion",
+  "description": "useElementTransform is used to sync a reactive object to a target element CSS transform."
+  },
+  {
+  "name": "useDrag",
+  "package": "gesture",
+  "docs": "https://gesture.vueuse.org/use-drag.html",
+  "category": "Gesture",
+  "description": "useDrag hook"
+  },
+  {
+  "name": "useMove",
+  "package": "gesture",
+  "docs": "https://gesture.vueuse.org/use-move.html",
+  "category": "Gesture",
+  "description": "useMove hook"
+  },
+  {
+  "name": "useHover",
+  "package": "gesture",
+  "docs": "https://gesture.vueuse.org/use-hover.html",
+  "category": "Gesture",
+  "description": "useHover hook"
+  },
+  {
+  "name": "useScroll",
+  "package": "gesture",
+  "docs": "https://gesture.vueuse.org/use-scroll.html",
+  "category": "Gesture",
+  "description": "useScroll hook"
+  },
+  {
+  "name": "useWheel",
+  "package": "gesture",
+  "docs": "https://gesture.vueuse.org/use-wheel.html",
+  "category": "Gesture",
+  "description": "useWheel hook"
+  },
+  {
+  "name": "usePinch",
+  "package": "gesture",
+  "docs": "https://gesture.vueuse.org/use-pinch.html",
+  "category": "Gesture",
+  "description": "usePinch hook"
+  },
+  {
+  "name": "useGesture",
+  "package": "gesture",
+  "docs": "https://gesture.vueuse.org/use-gesture.html",
+  "category": "Gesture",
+  "description": "useGesture hook"
+  },
+  {
+  "name": "useHead",
+  "package": "head",
+  "docs": "https://github.com/vueuse/head#useheadhead-headobject--refheadobject",
+  "category": "Head",
+  "description": "Document head manager for Vue 3."
+  },
+  {
+  "name": "useSound",
+  "package": "sound",
+  "docs": "https://sound.vueuse.org",
+  "category": "Sound",
+  "description": "Vue Composable playing sound in your apps"
   }
   ]
   }
