@@ -79,6 +79,42 @@
   },
   "dir": "packages/firebase",
   "docs": "https://vueuse.org/firebase/README.html"
+  },
+  "motion": {
+  "name": "@vueuse/motion",
+  "display": "Motion",
+  "description": "Vue Composables putting your components in motion",
+  "addon": true,
+  "external": [
+  "popmotion",
+  "framesync"
+  ],
+  "globals": {
+  "popmotion": "popmotion",
+  "framesync": "framesync"
+  },
+  "docs": "https://motion.vueuse.org"
+  },
+  "gesture": {
+  "name": "@vueuse/gesture",
+  "display": "Gesture",
+  "description": "Vue Composables making your app interactive",
+  "addon": true,
+  "docs": "https://gesture.vueuse.org"
+  },
+  "sound": {
+  "name": "@vueuse/sound",
+  "display": "Sound",
+  "description": "Vue Composable playing sound in your apps",
+  "addon": true,
+  "docs": "https://sound.vueuse.org"
+  },
+  "head": {
+  "name": "@vueuse/head",
+  "display": "Head",
+  "description": "Document <head> manager for Vue 3. SSR ready.",
+  "addon": true,
+  "docs": "https://github.com/vueuse/head"
   }
   },
   "categories": [
