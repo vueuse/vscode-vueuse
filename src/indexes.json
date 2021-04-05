@@ -963,5 +963,54 @@
     "category": "@vueuse/motion",
     "description": "useElementTransform is used to sync a reactive object to a target element CSS transform."
   },
+  {
+    "name": "useDrag",
+    "package": "gesture",
+    "docs": "https://gesture.vueuse.org/use-drag.html",
+    "category": "@vueuse/gesture",
+    "description": "useDrag hook"
+  },
+  {
+    "name": "useMove",
+    "package": "gesture",
+    "docs": "https://gesture.vueuse.org/use-move.html",
+    "category": "@vueuse/gesture",
+    "description": "useMove hook"
+  },
+  {
+    "name": "useHover",
+    "package": "gesture",
+    "docs": "https://gesture.vueuse.org/use-hover.html",
+    "category": "@vueuse/gesture",
+    "description": "useHover hook"
+  },
+  {
+    "name": "useScroll",
+    "package": "gesture",
+    "docs": "https://gesture.vueuse.org/use-scroll.html",
+    "category": "@vueuse/gesture",
+    "description": "useScroll hook"
+  },
+  {
+    "name": "useWheel",
+    "package": "gesture",
+    "docs": "https://gesture.vueuse.org/use-wheel.html",
+    "category": "@vueuse/gesture",
+    "description": "useWheel hook"
+  },
+  {
+    "name": "usePinch",
+    "package": "gesture",
+    "docs": "https://gesture.vueuse.org/use-pinch.html",
+    "category": "@vueuse/gesture",
+    "description": "usePinch hook"
+  },
+  {
+    "name": "useGesture",
+    "package": "gesture",
+    "docs": "https://gesture.vueuse.org/use-gesture.html",
+    "category": "@vueuse/gesture",
+    "description": "useGesture hook"
+  },
   ]
   }
