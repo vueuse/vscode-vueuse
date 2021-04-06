@@ -30,7 +30,7 @@
 		"commands": [
 			{
 				"command": "vueuse-docs.openDocs",
-				"title": "Vueuse Documentation",
+				"title": "VueUse Documentation",
 				"category": "VueUse"
 			},
 			{
@@ -45,6 +45,12 @@
 					"command": "vueuse-docs.openDocs",
 					"when": "vueuse.showMenu",
 					"group": "navigation"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "vueuse-docs.openDocs",
+					"when": "false"
 				}
 			]
 		}
