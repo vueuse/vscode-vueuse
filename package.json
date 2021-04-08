@@ -18,6 +18,7 @@
 		"Other"
 	],
 	"activationEvents": [
+		"*",
 		"onLanguage:vue",
 		"onLanguage:typescript",
 		"onLanguage:javascript"
@@ -29,44 +30,49 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "vueuse-docs.openDocs",
+				"command": "vueuse.context",
 				"title": "VueUse Documentation",
 				"category": "VueUse"
 			},
 			{
-				"command": "vueuse-docs.browseDocs",
+				"command": "vueuse.browse",
 				"title": "Browse Documentation",
+				"category": "VueUse"
+			},
+			{
+				"command": "vueuse.update",
+				"title": "Update Documentation",
 				"category": "VueUse"
 			}
 		],
 		"menus": {
 			"editor/context": [
 				{
-					"command": "vueuse-docs.openDocs",
+					"command": "vueuse.context",
 					"when": "vueuse.showMenu",
 					"group": "navigation"
 				}
 			],
 			"commandPalette": [
 				{
-					"command": "vueuse-docs.openDocs",
+					"command": "vueuse.context",
 					"when": "false"
 				}
 			]
-		}
-	},
-	"configuration": {
-		"type": "object",
-		"title": "VueUse",
-		"properties": {
-			"vite.browserType": {
-				"type": "string",
-				"enum": [
-					"embedded",
-					"system"
-				],
-				"default": "embedded",
-				"description": "Browser to open VueUse docs in"
+		},
+		"configuration": {
+			"type": "object",
+			"title": "VueUse",
+			"properties": {
+				"vueuse.browserType": {
+					"type": "string",
+					"enum": [
+						"embedded",
+						"system"
+					],
+					"default": "embedded",
+					"description": "Browser to open VueUse docs in"
+				}
 			}
 		}
 	},
@@ -83,6 +89,7 @@
 		"@types/glob": "^7.1.3",
 		"@types/mocha": "^8.0.4",
 		"@types/node": "^12.11.7",
+		"@types/node-fetch": "^2.5.10",
 		"@types/vscode": "^1.55.0",
 		"@typescript-eslint/eslint-plugin": "^4.14.1",
 		"@typescript-eslint/parser": "^4.14.1",
@@ -91,5 +98,8 @@
 		"mocha": "^8.2.1",
 		"typescript": "^4.1.3",
 		"vscode-test": "^1.5.0"
+	},
+	"dependencies": {
+		"node-fetch": "^2.6.1"
 	}
 }

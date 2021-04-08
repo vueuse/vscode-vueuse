@@ -1,0 +1,11 @@
+{
+  "functions": [
+    {
+      "name": "useSound",
+      "package": "sound",
+      "docs": "https://sound.vueuse.org",
+      "category": "Sound",
+      "description": "Vue Composable playing sound in your apps"
+    }
+  ]
+}

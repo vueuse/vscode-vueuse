@@ -1,0 +1,53 @@
+{
+  "functions": [
+    {
+      "name": "useDrag",
+      "package": "gesture",
+      "docs": "https://gesture.vueuse.org/use-drag.html",
+      "category": "Gesture",
+      "description": "useDrag hook"
+    },
+    {
+      "name": "useMove",
+      "package": "gesture",
+      "docs": "https://gesture.vueuse.org/use-move.html",
+      "category": "Gesture",
+      "description": "useMove hook"
+    },
+    {
+      "name": "useHover",
+      "package": "gesture",
+      "docs": "https://gesture.vueuse.org/use-hover.html",
+      "category": "Gesture",
+      "description": "useHover hook"
+    },
+    {
+      "name": "useScroll",
+      "package": "gesture",
+      "docs": "https://gesture.vueuse.org/use-scroll.html",
+      "category": "Gesture",
+      "description": "useScroll hook"
+    },
+    {
+      "name": "useWheel",
+      "package": "gesture",
+      "docs": "https://gesture.vueuse.org/use-wheel.html",
+      "category": "Gesture",
+      "description": "useWheel hook"
+    },
+    {
+      "name": "usePinch",
+      "package": "gesture",
+      "docs": "https://gesture.vueuse.org/use-pinch.html",
+      "category": "Gesture",
+      "description": "usePinch hook"
+    },
+    {
+      "name": "useGesture",
+      "package": "gesture",
+      "docs": "https://gesture.vueuse.org/use-gesture.html",
+      "category": "Gesture",
+      "description": "useGesture hook"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "functions": [
+    {
+      "name": "useHead",
+      "package": "head",
+      "docs": "https://github.com/vueuse/head#useheadhead-headobject--refheadobject",
+      "category": "Head",
+      "description": "Document head manager for Vue 3."
+    }
+  ]
+}
